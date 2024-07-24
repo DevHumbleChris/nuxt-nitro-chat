@@ -1,0 +1,83 @@
+{
+  "name": "nuxt-nitro-chat",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/image": "^1.7.0",
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@pinia/nuxt": "^0.5.1",
+    "@sidebase/nuxt-auth": "^0.8.0",
+    "class-variance-authority": "^0.7.0",
+    "cloudinary": "^2.3.0",
+    "clsx": "^2.1.1",
+    "lucide-vue-next": "^0.407.0",
+    "next-auth": "^4.21.1",
+    "nuxt": "^3.12.3",
+    "nuxt-emoji-picker": "^1.1.0",
+    "p-limit": "^6.1.0",
+    "pinia": "^2.1.7",
+    "radix-vue": "^1.9.1",
+    "shadcn-nuxt": "^0.10.4",
+    "tailwind-merge": "^2.4.0",
+    "tailwindcss-animate": "^1.0.7",
+    "ufo": "^1.5.4",
+    "uuid": "^10.0.0",
+    "vue": "latest",
+    "vue-sonner": "^1.1.3"
+  },
+  "devDependencies": {
+    "@iconify-json/flowbite": "^1.1.5",
+    "@iconify-json/ic": "^1.1.17",
+    "@iconify-json/material-symbols": "^1.1.84",
+    "@iconify-json/solar": "^1.1.9",
+    "@iconify-json/uiw": "^1.1.12",
+    "@nuxt/icon": "^1.0.0",
+    "@nuxtjs/color-mode": "^3.4.2",
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "@pinia-plugin-persistedstate/nuxt": "^1.2.1",
+    "@prisma/client": "^5.17.0",
+    "@types/node": "^20.14.10",
+    "@types/uuid": "^10.0.0",
+    "@vueuse/core": "^10.11.0",
+    "@vueuse/nuxt": "^10.11.0",
+    "prisma": "^5.16.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "overrides": {
+    "vue": "latest"
+  },
+  "version": "1.0.0",
+  "description": "Welcome to Nuxt Nitro Chat! 🚀 This Nuxt app uses experimental web sockets for real-time group chat in Nuxt.js. 💬✨",
+  "main": "tailwind.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevHumbleChris/nuxt-nitro-chat.git"
+  },
+  "keywords": [
+    "websockets",
+    "nuxt",
+    "nitro",
+    "tailwindcss",
+    "vue",
+    "prisma",
+    "cloudinary",
+    "pinia"
+  ],
+  "author": "thecodingmontana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevHumbleChris/nuxt-nitro-chat/issues"
+  },
+  "homepage": "https://github.com/DevHumbleChris/nuxt-nitro-chat#readme"
+}
