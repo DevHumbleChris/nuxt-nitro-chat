@@ -13,7 +13,7 @@ export default defineNuxtConfig({
     "@pinia-plugin-persistedstate/nuxt",
     "@nuxt/icon",
     "@sidebase/nuxt-auth",
-    "nuxt-emoji-picker"
+    "nuxt-emoji-picker",
   ],
   auth: {
     provider: {
@@ -68,11 +68,6 @@ export default defineNuxtConfig({
   piniaPersistedstate: {
     cookieOptions: {
       sameSite: "strict",
-    },
-  },
-  runtimeConfig: {
-    public: {
-      baseURL: process.env.AUTH_ORIGIN,
     },
   },
 });
