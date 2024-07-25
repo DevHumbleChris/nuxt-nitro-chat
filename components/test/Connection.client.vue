@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import { socket } from "./socket";
 
 const isConnected = ref(false);
