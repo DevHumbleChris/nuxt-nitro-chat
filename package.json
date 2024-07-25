@@ -25,6 +25,8 @@
     "pinia": "^2.1.7",
     "radix-vue": "^1.9.1",
     "shadcn-nuxt": "^0.10.4",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
     "tailwind-merge": "^2.4.0",
     "tailwindcss-animate": "^1.0.7",
     "ufo": "^1.5.4",
